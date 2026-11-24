@@ -36,6 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Use a unique artifact name for each retry attempt.
+          name: github-pages-${{ github.run_attempt }}
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
