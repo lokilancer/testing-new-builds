@@ -1,19 +1,23 @@
 # Recovery notes
 
-The Lab Guide LK project has been reconstructed from the Claude conversation export.
+This folder was reconstructed from the Claude conversation export for **Lab Guide LK**.
 
-The downloadable recovered source package contains the app shell, CSS, multilingual content, seven simulations, reference editor, PWA files, SVG logo, README, licence, and validation utilities.
+## Included
+- App shell, styles, language content, practical data and seven interactive simulations
+- Textbook reference editor and reference data structure
+- Offline service worker, PWA manifest and SVG logo
+- Validation script and PDF activity-page candidate finder
 
-## Verification performed
+## Checks
+- `node tools/validate.js`: all 7 practicals have English, Sinhala and Tamil content, and their simulation references are present.
+- Main JavaScript files pass `node --check`.
+- `tools/find_activities.py` passes Python bytecode compilation.
 
-- `node tools/validate.js`: 7 practicals and 7 simulations found; all English, Sinhala and Tamil content fields are complete.
-- JavaScript syntax checks passed for the main app files.
-- Python compilation check passed for `tools/find_activities.py`.
-- ZIP archive integrity check passed.
+## Limitations
+- Original PNG app icons were absent; the manifest and HTML now use the recovered SVG logo.
+- Textbook page numbers are not pre-filled. Verify references against the exact textbook edition.
+- Grade placements are suggestions; translations need subject-teacher review.
+- Software checks are not official curriculum approval.
 
-## Known limitations
-
-- The original PNG icons were missing. The recovered manifest and HTML now use the SVG logo.
-- Textbook page numbers are not verified or pre-filled.
-- Suggested grade placements and translations require review by Sri Lankan subject teachers.
-- These checks do not establish official curriculum approval.
+## Run locally
+Run `python -m http.server 8000` in this folder and open `http://localhost:8000`.

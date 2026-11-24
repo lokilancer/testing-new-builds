@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lab Guide LK logo">
+  <rect width="64" height="64" rx="14" fill="#14795b"/>
+  <g stroke="#1b8f6c" stroke-width="1.2"><path d="M6 20H58M6 32H58M6 44H58"/></g>
+  <path d="M26 10 H38 M28 10 V26 L16 48 Q13 54 19 54 H45 Q51 54 48 48 L36 26 V10" fill="#fffef9" stroke="#fffef9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M20.4 42 H43.6 L47.5 49.6 Q49 52 46 52 H18 Q15 52 16.5 49.6 Z" fill="#f2a900"/>
+  <circle cx="29" cy="37" r="2.4" fill="#f2a900"/><circle cx="35.5" cy="31" r="1.8" fill="#f2a900"/>
+  <path d="M29 14 H35" stroke="#14795b" stroke-width="2" stroke-linecap="round"/>
+</svg>

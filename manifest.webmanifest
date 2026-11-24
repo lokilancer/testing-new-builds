@@ -1,0 +1,20 @@
+{
+  "name": "Lab Guide LK",
+  "short_name": "Lab Guide",
+  "description": "Clear, visual practical lessons for Grades 6-11 in Sinhala, Tamil and English",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fffef9",
+  "theme_color": "#14795b",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
