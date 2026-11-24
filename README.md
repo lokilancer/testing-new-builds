@@ -1,24 +1,21 @@
 # Lab Guide G11 — Grade 11 Science, Part I
 
-This repository is being restored as **Lab Guide G11**, the bilingual Tamil/English interactive guide to the 46 activities in the Sri Lankan Grade 11 Science Part I textbook.
+A bilingual Tamil/English interactive guide to the 46 practical activities in the Sri Lankan Grade 11 Science Part I textbook. This is an unofficial teaching aid with original explanations and simplified virtual models.
 
-## Intended project contents
+## Included
+- 46 activities grouped across eight textbook units.
+- 27 activities connected to six interactive virtual labs: photosynthesis; solutions (solubility and concentration); waves and sound; optics (mirrors, lenses and refraction); indicators (acids and bases); and heat effects of chemical reactions.
+- Classroom presentation mode, responsive layout, print-friendly activity pages, and offline caching.
+- Editable textbook-reference panel for teachers.
 
-- 46 activity entries across eight units.
-- Six interactive labs: photosynthesis, solutions (solubility and concentration), waves and sound, optics, indicators, and heat of reaction.
-- Concave-mirror ray diagram and other optics models.
-- Classroom teaching mode, responsive layout, and offline support.
+## Confirmed Tamil-medium textbook pages
+The following eight printed page references were checked against the Tamil-medium Grade 11 Science Part I textbook: 1.1 p.1, 2.2 p.26, 3.6 p.40, 4.3 p.86, 5.2 p.127, 6.5 p.201, 7.1 p.227, and 8.4 p.238. The remaining 38 references are intentionally blank. Do not guess page numbers. English-medium references have not yet been verified.
 
-## Textbook references
-
-Eight Tamil-medium printed page references have been recovered: 1.1 p.1, 2.2 p.26, 3.6 p.40, 4.3 p.86, 5.2 p.127, 6.5 p.201, 7.1 p.227, and 8.4 p.238. The other 38 references are intentionally blank rather than guessed. English-medium page references have not been added.
-
-## Recovery status
-
-The source code has been reconstructed from the Claude conversation export and checked locally. The application source files have **not yet been committed to this repository**; this README does not claim that the live site is complete.
-
-Run locally after the application source files are committed:
-
+## Run locally
+Use Python 3 from this folder:
 ```bash
 python -m http.server 8000
 ```
+Open http://localhost:8000. Validate the catalogue with `node tools/validate.js`.
+
+Activity descriptions and simulations are original teaching material; textbook passages and textbook images are not included. This project is not affiliated with Sri Lanka's Ministry of Education or the National Institute of Education. Code: MIT License. Original text: CC BY 4.0.
