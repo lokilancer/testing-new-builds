@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/lokilancer/TMMV-ROBOTICS/main/assets/loki-lancer-horse.svg" width="112" alt="Loki Lancer blue horse logo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lokilancer/TMMV-ROBOTICS/main/assets/loki-lancer-horse.webp" width="112" alt="@Loki_Lancer blue horse logo"></p>
 
 # Lab Guide G11 — Grade 11 Science, Part I
 
@@ -24,4 +24,4 @@ Activity descriptions and simulations are original teaching material; textbook p
 
 ---
 
-<p align="center">Made by <strong>Loki Lancer</strong></p>
+<p align="center">Made by <strong>@Loki_Lancer</strong></p>
