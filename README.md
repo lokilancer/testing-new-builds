@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/lokilancer/TMMV-ROBOTICS/main/assets/loki-lancer-horse.svg" width="112" alt="Loki Lancer blue horse logo"></p>
+
 # Lab Guide G11 — Grade 11 Science, Part I
 
 A bilingual Tamil/English interactive guide to the 46 practical activities in the Sri Lankan Grade 11 Science Part I textbook. This is an unofficial teaching aid with original explanations and simplified virtual models.
@@ -19,3 +21,7 @@ python -m http.server 8000
 Open http://localhost:8000. Validate the catalogue with `node tools/validate.js`.
 
 Activity descriptions and simulations are original teaching material; textbook passages and textbook images are not included. This project is not affiliated with Sri Lanka's Ministry of Education or the National Institute of Education. Code: MIT License. Original text: CC BY 4.0.
+
+---
+
+<p align="center">Made by <strong>Loki Lancer</strong></p>
